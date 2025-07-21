@@ -9,6 +9,8 @@ const Login = () => {
     e.preventDefault();
     // Future: Send to backend
     console.log('Login Submitted', { email, password });
+    // setEmail('');
+    // setPassword('');
   };
 
   return (
