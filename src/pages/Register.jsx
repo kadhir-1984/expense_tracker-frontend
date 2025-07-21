@@ -11,6 +11,9 @@ const Register = () => {
     e.preventDefault();
     // Future: Send to backend
     console.log('Register Submitted', { name, email, password });
+    setName('');
+    setEmail('');
+    setPassword('');
   };
 
   return (

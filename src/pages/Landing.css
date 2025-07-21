@@ -1,66 +1,61 @@
-
-
-.landing {
+/* Landing.css */
+.landing-container {
+  min-height: 80vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: calc(100vh - 60px);
-  background: linear-gradient(to right, #f7f9fc, #eef4fb);
-  padding: 20px;
+  justify-content: center;
+  background: linear-gradient(145deg, #f0f4ff, #e4f0ff);
+  padding: 2rem;
 }
 
-.box {
-  background: white;
-  padding: 40px;
-  border-radius: 12px;
-  max-width: 600px;
+.landing-card {
+  background-color: #ffffff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  max-width: 500px;
+  width: 100%;
+  transition: transform 0.3s ease;
 }
 
-.box h1 {
-  margin-bottom: 20px;
+.landing-card:hover {
+  transform: translateY(-5px);
+}
+
+.landing-title {
   font-size: 2rem;
-  color: #007bff;
+  color: #1d4ed8;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
-.box p {
+.landing-desc {
+  color: #444;
   font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
-.btns {
+.landing-buttons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 1rem;
 }
 
 .btn {
   padding: 10px 20px;
-  font-size: 1rem;
   border: none;
-  border-radius: 6px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #1e40af;
 }
 
-@media (max-width: 600px) {
-  .box {
-    padding: 20px;
-  }
-
-  .btns {
-    flex-direction: column;
-  }
-
-  .btn {
-    width: 100%;
-  }
-}
