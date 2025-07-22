@@ -14,7 +14,7 @@ const Login = () => {
   };
 
   return (
-    <div className="page small">
+    <div className="page">
       <h2 className="login-title">Login to Your Account</h2>
       <form className="login-form" onSubmit={handleSubmit}>
         <input

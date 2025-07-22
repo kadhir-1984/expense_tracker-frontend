@@ -19,7 +19,7 @@
 }
 
 .expense-form button {
-  background-color: #28a745;
+  background-color: #2d9dae;
   color: white;
   border: none;
   cursor: pointer;
@@ -27,7 +27,7 @@
 }
 
 .expense-form button:hover {
-  background-color: #218838;
+  background-color: #246c8b;
 }
 
 .expense-filter {
