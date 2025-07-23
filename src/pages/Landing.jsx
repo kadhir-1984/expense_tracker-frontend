@@ -10,7 +10,7 @@ const Landing = () => {
         <p className="landing-desc">
           Track your expenses, stay on budget, and take control of your money!
         </p>
-        <div className="landing-buttons">
+        <div className="landing-btn">
           <Link to="/login">
             <button className="btn">Login</button>
           </Link>

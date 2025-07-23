@@ -37,7 +37,7 @@
   line-height: 1.6;
 }
 
-.landing-buttons {
+.landing-btn {
   display: flex;
   justify-content: center;
   gap: 1rem;
